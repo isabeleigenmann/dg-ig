@@ -8,20 +8,20 @@
 
 # TODO: Paket-ID. Nur Kleinbuchstaben, Ziffern und Punkte.
 # Ersetzt "vorlage" durch euer ZHAW-Kürzel, z. B. ch.zhaw.dg.amuster
-id: ch.zhaw.dg.vorlage
+id: ch.zhaw.dg.ieigenmann
 
 # TODO: Adresse eurer GitHub-Pages-Seite, ohne Schrägstrich am Ende.
 # Muster: https://<github-benutzername>.github.io/<repo-name>
-canonical: https://example.github.io/dg-ig
+canonical: https://isabeleigenmann.github.io/dg-ig
 
 # TODO: Computerlesbarer Name, ohne Leerzeichen und Sonderzeichen.
-name: DGVorlageIG
+name: DGEigenmannIG
 
 # TODO: Titel, der oben auf eurer IG-Seite steht.
-title: "DG Lab IG Vorlage"
+title: "DG Lab IG Isabel Eigenmann: Arzneimittelallergie"
 
 # TODO: Ein Satz zu eurem Use Case.
-description: "Implementation Guide aus dem Lab Data Standards in Healthcare an der ZHAW."
+description: "Erfassung und standardisierter Austausch von Arzneimittelallergien zwischen einer Hausarztpraxis und einer Notfallstation."
 
 # TODO: Euer Name.
 publisher:
