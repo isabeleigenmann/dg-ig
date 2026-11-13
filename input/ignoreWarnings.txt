@@ -1,6 +1,53 @@
 == Suppressed Messages ==
 
-# Hier könnt ihr Warnungen aus dem QA-Report unterdrücken.
-# Kopiert dazu den Text der Warnung exakt in eine eigene Zeile.
-# Schreibt über jede unterdrückte Warnung einen Kommentar mit dem Grund.
-# Errors lassen sich nicht unterdrücken, die müsst ihr beheben.
+# Die Datei searchform.html wird automatisch durch den IG Publisher generiert.
+# Der HTML-Formatierungsfehler betrifft nicht unser FHIR-Profil.
+The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
+
+# Die Datei searchform.html wird automatisch durch den IG Publisher generiert.
+# Der HTML-Formatierungsfehler in Zeile 79 betrifft nicht unser FHIR-Profil.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 10
+
+# Die Datei searchform.html wird automatisch durch den IG Publisher generiert.
+# Der HTML-Formatierungsfehler in Zeile 80 betrifft nicht unser FHIR-Profil.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 80 column 9
+
+# Die Datei searchform.html wird automatisch durch den IG Publisher generiert.
+# Der HTML-Formatierungsfehler in Zeile 109 betrifft nicht unser FHIR-Profil.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 109 column 8
+
+# Die Datei searchform.html wird automatisch durch den IG Publisher generiert.
+# Der HTML-Formatierungsfehler in Zeile 111 betrifft nicht unser FHIR-Profil.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 111 column 12
+
+# Die Datei searchform.html wird automatisch durch den IG Publisher generiert.
+# Der HTML-Formatierungsfehler in Zeile 112 betrifft nicht unser FHIR-Profil.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 20
+
+# Die Datei searchform.html wird automatisch durch den IG Publisher generiert.
+# Der HTML-Formatierungsfehler in Zeile 113 betrifft nicht unser FHIR-Profil.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 16
+
+# Die Datei searchform.html wird automatisch durch den IG Publisher generiert.
+# Der HTML-Formatierungsfehler in Zeile 115 betrifft nicht unser FHIR-Profil.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 12
+
+# Das HTML-Fragment ip-statements.xhtml wird im Implementation Guide nicht verwendet.
+# Es wird für die Darstellung unseres FHIR-Profils nicht benötigt.
+The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+
+# Die HTML-Fragmente zur Cross-Version-Analyse werden im Implementation Guide nicht verwendet.
+# Eine solche Analyse ist für die vorliegende Übungsaufgabe nicht vorgesehen.
+An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+
+# Die HTML-Fragmente zur Darstellung der Abhängigkeiten werden nicht eingebunden.
+# Die verwendeten Abhängigkeiten sind bereits in der Konfiguration definiert.
+An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+
+# Das HTML-Fragment globals-table.xhtml wird im Implementation Guide nicht verwendet.
+# Eine zusätzliche globale Übersicht ist für diese Übungsaufgabe nicht erforderlich.
+The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+
+# Die Version 3.3.0 von CH Term wird in der Vorlage verwendet.
+# Die neuere Version 3.4.0 ist für diese Übungsaufgabe nicht zwingend erforderlich.
+The ImplementationGuide uses package ch.fhir.ig.ch-term#3.3.0 released on 2025-12-15, but the most recent appropriate version is 3.4.0. This reference is getting old and the more recent version should be considered
