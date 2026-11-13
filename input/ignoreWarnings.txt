@@ -1,26 +1,2 @@
-# CH Term 3.3.0 wird bewusst beibehalten, da diese Version
-# in der ZHAW-Vorlage vorgegeben ist.
-The ImplementationGuide uses package ch.fhir.ig.ch-term#3.3.0 released on 2025-12-15, but the most recent appropriate version is 3.4.0. This reference is getting old and the more recent version should be considered
-
-# Die folgenden Warnungen betreffen die automatisch generierte
-# Suchseite searchform.html des IG Publishers.
-# Sie entstehen bei der HTML-Generierung und betreffen
-# nicht die FSH-Definitionen des eigenen Allergieprofils.
-The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
-The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 10
-The html source is not well formed: Found "</div>" expecting "</body>" at line 80 column 9
-The html source is not well formed: Found "</div>" expecting "</body>" at line 109 column 8
-The html source is not well formed: Found "</div>" expecting "</body>" at line 111 column 12
-The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 20
-The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 16
-The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 12
-
-# Die folgenden HTML-Fragmente werden automatisch vom
-# IG Publisher erzeugt, jedoch in diesem kleinen
-# Implementation Guide nicht eingebunden.
-# Sie sind für die Darstellung des Allergieprofils
-# und des Beispiels nicht erforderlich.
-The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
-The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+# Noch keine Warnungen unterdrückt.
+# Die Warnungen werden im QA-Report geprüft
