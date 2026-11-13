@@ -6,29 +6,28 @@
 
 ### Use Case
 
-TODO: Beschreibt in zwei bis drei Sätzen, welche Situation euer IG abbildet.
-Wer erfasst die Daten, wer liest sie, und wofür werden sie gebraucht?
+Dieses Implementation Guide beschreibt die standardisierte Erfassung und den Austausch von Arzneimittelallergien zwischen einer Hausarztpraxis und einer Notfallstation. Die Allergieinformationen werden durch eine Ärztin oder einen Arzt dokumentiert und stehen der Notfallstation zur Verfügung, um bekannte Arzneimittelallergien bei der Behandlung und Medikamentenverordnung zu berücksichtigen.
 
 ### Scope
 
-TODO: Was deckt dieses IG ab, und was bewusst nicht?
+Dieses Implementation Guide konzentriert sich auf die Dokumentation von Arzneimittelallergien auf Basis der FHIR-Ressource AllergyIntolerance und des Schweizer Standards CH Core.
+
+Es umfasst die Erfassung des klinischen Status, der Allergieauslöser, der Kritikalität, des Beginns sowie bekannter allergischer Reaktionen. Für die Codierung werden Schweizer ValueSets verwendet.
+
+Nicht Bestandteil dieses Implementation Guides sind die Erfassung anderer Allergiekategorien, die Diagnostik von Allergien oder die automatisierte Überprüfung von Arzneimittelinteraktionen.
 
 ### Artefakte
 
-TODO: Ergänzt pro Artefakt einen Satz, wofür es da ist.
+- [DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): FHIR-Profil zur standardisierten Dokumentation von Arzneimittelallergien mit definierten Pflichtfeldern, Datentypen, Wertebereichen und einer zusätzlichen Validierungsregel.
 
-* [DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): TODO
-* [Titel eures Beispiels](AllergyIntolerance-TODO_Name.html): TODO
-
-<!-- TODO_Name ist der Name hinter "Instance:" in beispiele.fsh,
-     z. B. AllergyIntolerance-PenicillinAllergieAnna.html -->
+- [Penicillinallergie bei Anna Muster](AllergyIntolerance-PenicillinAllergieAnna.html): Beispiel einer bestätigten Penicillinallergie mit hoher Kritikalität und dokumentierter Urtikaria als allergischer Reaktion.
 
 ### Abhängigkeiten
 
-Dieses IG baut auf [CH Core 6.0.0](https://fhir.ch/ig/ch-core/6.0.0/) auf.
+Dieses Implementation Guide baut auf [CH Core 6.0.0](https://fhir.ch/ig/ch-core/6.0.0/) auf. Zusätzlich wird CH Term 3.3.0 für die Schweizer Terminologien verwendet.
 
-### Autorin oder Autor
+### Autorin
 
-TODO: Euer Name.
+Isabel Eigenmann
 
 <p style="font-size:smaller">Erstellt im Lab des Moduls Data Standards in Healthcare, ZHAW, HS26. Kein offizieller Standard.</p>
